@@ -1,0 +1,10 @@
+.vscode/
+build/
+lib/
+bin/
+src/Game.cpp
+src/Game.h
+src/Render.h
+src/Render.cpp
+src/Shaders.cpp
+build.sh
