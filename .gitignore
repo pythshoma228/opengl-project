@@ -1,5 +1,6 @@
 .vscode/
 build/
+<<<<<<< HEAD
 lib/
 bin/
 src/Game.cpp
@@ -8,3 +9,5 @@ src/Render.h
 src/Render.cpp
 src/Shaders.cpp
 build.sh
+=======
+>>>>>>> de4b13f84c4773fd69e04a48a412f176a9b2dfd4

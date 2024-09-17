@@ -3,12 +3,14 @@
 #include <cmath>
 #include <string>
 
-#include <glew.h>
+
 #include <SFML/Window.hpp>
-#include <glm.hpp>
-#include <gtc/matrix_transform.hpp>
-#include <gtc/type_ptr.hpp>
-#include "stb_image.h"
+
+#include <GL/glew.h>
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+#include <stb_image.h>
 #include "Shaders.h"
 
 int main() {
@@ -33,7 +35,7 @@ int main() {
     
     std::cout << glGetString(GL_VERSION) << "\n";
 
-    ShaderProgramSource source = parseShader("../../../res/shaders/basic.shader");
+    ShaderProgramSource source = parseShader("../res/shaders/basic.shader");
     
     std::cout << source.VertexSource << "\n";
     std::cout << source.FragmentSource;
@@ -140,7 +142,7 @@ int main() {
 
     stbi_set_flip_vertically_on_load(true);  
     int width,height,nrChannels;
-    unsigned char* datatexture = stbi_load("../../../res/textures/dirt.jpg",&width,&height,&nrChannels,0);
+    unsigned char* datatexture = stbi_load("../res/textures/dirt.jpg",&width,&height,&nrChannels,0);
 
     if (datatexture)
     {
