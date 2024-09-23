@@ -18,7 +18,7 @@ install vcpkg using git and build it yourself to have all dependecies:
 ```
 cd opengl-project
 
-git clone https://github.com/microsoft/vcpkg
+git clone https://github.com/microsoft/vcpkg.git
 
 cd vcpkg
 
