@@ -211,7 +211,7 @@ int main() {
         glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
         
         window.setActive(false);
-        theta += 1.0f;
+        theta += 0.1f;
         
         window.display();
     }
