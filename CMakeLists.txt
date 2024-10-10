@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.29)
-#TODO
-#Build Debug and Release dirs 
+
 
 set(PROJECT_NAME app)
 project(${PROJECT_NAME} LANGUAGES CXX)
